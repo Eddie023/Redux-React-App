@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-wrapper {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.winner-buttons {
+  background: red;
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 2px solid black;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 150px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
